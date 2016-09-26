@@ -10,8 +10,6 @@
     <xsd:complexType>
       <xsd:sequence>
         <xsd:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
-        <xsd:element name="backLeftJoint" type="xsd:string"/>
-        <xsd:element name="backRightJoint" type="xsd:string"/>
       </xsd:sequence>
       <xsd:attribute name='name' type='xsd:string' use='required' >
         <xsd:annotation>
