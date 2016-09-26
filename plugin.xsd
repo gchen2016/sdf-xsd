@@ -9,7 +9,7 @@
   <xsd:element name='plugin'>
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:choice minOccurs='0' maxOccurs='unbounded'>
+        <xsd:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
         <xsd:element name="backLeftJoint"                  type="xsd:string" />
         <xsd:element name="backRightJoint"                 type="xsd:string" />
       </xsd:sequence>
